@@ -9,13 +9,13 @@
 <div class="card sigin-card">
   <div class="card-block">
     <img src="img/ListeneWhistlelogo.png" alt="Listen e Whistle logo" class="img-fluid sigin-image">
-    <form class=" sigin-form">
+    <form class=" sigin-form" action="logar.php" method="POST">
     <div class="form-group">
-    <input type="email" class="form-control" id="exampleInput" aria-describedby="emailHelp" placeholder="Email">
+    <input type="email" class="form-control" name="loginname" id="exampleInput" aria-describedby="emailHelp" placeholder="Email" />
       <small id="emailHelp" class="form-text text-muted">Insira o seu Email</small>
     </div>
     <div class="form-group">
-      <input type="password" class="form-control" id="passwordinput" placeholder="Password">
+      <input type="password" name="password" class="form-control" id="passwordinput" placeholder="Password" />
       <small id="emailHelp" class="form-text text-muted">Insira a sua senha</small>
     </div>
 
